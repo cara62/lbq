@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8" lang="fr">
+        <meta name="biquettes" {#content="width=device-width, initial-scale=1"#}>
+        <title>{% block title %}Les Biquettes Quantiques{% endblock %}</title>
+        <link rel="icon" type="image/png" href="/bundles/biquettes/img/LBQredi.png">
+        {% block stylesheets %}
+            <link rel="stylesheet" href="{{ asset('bundles/biquettes/css/bootstrapBIQ.css') }}" type="text/css" />
+            <link rel="stylesheet" href="{{ asset('bundles/biquettes/css/biquettes.css') }}" type="text/css" />
+        {% endblock %}
+    </head>
+    <body>
+        <a href="{{ path('biq_biquettes_homepage')  }}"><img src="/bundles/biquettes/img/LBQredi.png" alt="logo biquette" with="150" height="150" id="imgbiq"  /></a><h1 id="titrebiq"> - &nbsp;Les Biquettes Quantiques Gaming</h1>
+               
+        <div id="bodybiq">
+        {% block body %}
+        {% endblock %}
+        <div id="foot">
+            <p>Les biquettes Quantiques - &copy all rights reserved 2015 | <a href="#">Mentions Légales</a> | Version&nbsp:&nbsp 0.1</p>
+        </div>
+        </div>
+    </body>
+</html>

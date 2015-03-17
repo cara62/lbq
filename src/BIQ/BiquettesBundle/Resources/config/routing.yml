@@ -1,0 +1,3 @@
+biq_biquettes_homepage:
+    path:     /
+    defaults: { _controller: BIQBiquettesBundle:Biquette:index }

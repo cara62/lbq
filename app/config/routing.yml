@@ -1,0 +1,8 @@
+biq_user:
+    resource: "@BIQUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+biq_biquettes:
+    resource: "@BIQBiquettesBundle/Resources/config/routing.yml"
+    prefix:   /
+

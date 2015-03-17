@@ -1,0 +1,7 @@
+parameters:
+#    biq_biquettes.example.class: BIQ\BiquettesBundle\Example
+
+services:
+#    biq_biquettes.example:
+#        class: %biq_biquettes.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

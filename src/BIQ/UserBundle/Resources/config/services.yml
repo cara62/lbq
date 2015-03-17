@@ -1,0 +1,7 @@
+parameters:
+#    biq_user.example.class: BIQ\UserBundle\Example
+
+services:
+#    biq_user.example:
+#        class: %biq_user.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
