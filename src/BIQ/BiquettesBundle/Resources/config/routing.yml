@@ -1,3 +1,7 @@
 biq_biquettes_homepage:
     path:     /
     defaults: { _controller: BIQBiquettesBundle:Biquette:index }
+    
+biq_biquettes_live:
+    path:    /live
+    defaults: { _controller: BIQBiquettesBundle:Biquette:live }

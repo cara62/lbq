@@ -9,7 +9,13 @@ class BiquetteController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('BIQBiquettesBundle::layout.html.twig');
+        return $this->render('BIQBiquettesBundle::index.html.twig');
     }
+    
+    public function liveAction()
+    {
+        return $this->render('BIQBiquettesBundle::live.html.twig');
+    }
+            
 }
 
